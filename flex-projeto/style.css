@@ -92,6 +92,7 @@ header .menu {
     color: #122A57;
     display: flex;
     margin-bottom: 20px;
+    align-items: center;
 }
 
 #quem-somos h2::before {
@@ -250,16 +251,33 @@ footer .footer {
         flex-direction: column;
     }
 
+    .menu {
+        text-align: center;
+    }
+
+    .menu .list-items {
+        margin: auto;
+        padding-top: 10px;
+    }
+
     .apresentacao {
         flex-direction: column-reverse;
     }
 
     .apresentacao .texto-apresentacao {
         width: 100%;
+        text-align: center;
+    }
+
+    .btn {
+        margin: auto;
+        margin-top: 20px;
     }
 
     #quem-somos {
         flex-direction: column-reverse;
+        text-align: center;
+        padding: 20px;
     }
 
     #quem-somos img {
@@ -267,13 +285,37 @@ footer .footer {
         margin: auto;
     }
 
+    #quem-somos h2 {
+        justify-content: center;
+    }
+
+    #servicos {
+        text-align: center;
+    }
+
+    #servicos h2{
+        margin-bottom: 30px;
+    }
+
     .list-servicos {
         flex-direction: column;
     }
 
     .item-servico img {
-        width: 50%;
+        width: 30%;
         margin: auto;
+    }
+
+    #planos {
+        text-align: center;
+    }
+
+    #planos h2{
+        margin-bottom: 30px;
+    }
+
+    .item-plano ul li {
+        margin-left: 30%;
     }
 
     .list-planos {
